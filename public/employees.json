@@ -1,0 +1,911 @@
+[
+  {
+    "id": "EMP001",
+    "name": "Muhammad Azizul Karim",
+    "position": "Chief Executive Officer",
+    "department": "Management",
+    "email": "ceo@enjoydive.com",
+    "phone": "+62 811-3456-7890",
+    "baseSalary": 48000,
+    "allowances": {
+      "transport": 2000,
+      "meal": 1500,
+      "bonus": 5000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 3000,
+      "insurance": 1200,
+      "other": 500,
+      "cooperativeFund": 800,
+      "healthInsurance": 0,
+      "loanDeduction": 900
+    },
+    "bankAccount": "BRI 7845123098",
+    "joinDate": "2026-01-15",
+    "status": "active",
+    "overtimeRate": 2000,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP002",
+    "name": "Ahmad Sari Dewi",
+    "position": "Administrator",
+    "department": "Administration",
+    "email": "admin@enjoydive.com",
+    "phone": "+62 812-3456-7891",
+    "baseSalary": 45500,
+    "allowances": {
+      "transport": 1800,
+      "meal": 1200,
+      "bonus": 3000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2800,
+      "insurance": 1000,
+      "other": 500,
+      "cooperativeFund": 700,
+      "healthInsurance": 800,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 9021345678",
+    "joinDate": "2026-03-01",
+    "status": "active",
+    "overtimeRate": 1800,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP003",
+    "name": "Muhammad Agus Pratama",
+    "position": "Marketing Manager",
+    "department": "Marketing",
+    "email": "marketing.manager@enjoydive.com",
+    "phone": "+62 813-3456-7892",
+    "baseSalary": 44000,
+    "allowances": {
+      "transport": 1700,
+      "meal": 1100,
+      "bonus": 2500,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2700,
+      "insurance": 900,
+      "other": 500,
+      "cooperativeFund": 650,
+      "healthInsurance": 700,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 6123457890",
+    "joinDate": "2026-05-15",
+    "status": "active",
+    "overtimeRate": 1700,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP004",
+    "name": "Siti Rahman",
+    "position": "Marketing Executive",
+    "department": "Marketing",
+    "email": "marketing1@enjoydive.com",
+    "phone": "+62 814-3456-7893",
+    "baseSalary": 42500,
+    "allowances": {
+      "transport": 1600,
+      "meal": 1000,
+      "bonus": 2400,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2600,
+      "insurance": 800,
+      "other": 500,
+      "cooperativeFund": 600,
+      "healthInsurance": 650,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 3345678901",
+    "joinDate": "2026-02-01",
+    "status": "active",
+    "overtimeRate": 1600,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP005",
+    "name": "Adi Rahman Saputra",
+    "position": "Marketing Executive",
+    "department": "Marketing",
+    "email": "marketing2@enjoydive.com",
+    "phone": "+62 815-3456-7894",
+    "baseSalary": 42500,
+    "allowances": {
+      "transport": 1500,
+      "meal": 900,
+      "bonus": 2300,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2500,
+      "insurance": 800,
+      "other": 500,
+      "cooperativeFund": 600,
+      "healthInsurance": 600,
+      "loanDeduction": 0
+    },
+    "bankAccount": "Mandiri 1123456789",
+    "joinDate": "2026-06-15",
+    "status": "active",
+    "overtimeRate": 1500,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP006",
+    "name": "Muhammad Indra Wijaya",
+    "position": "Purchasing Manager",
+    "department": "Purchasing",
+    "email": "purchasing.manager@enjoydive.com",
+    "phone": "+62 816-3456-7895",
+    "baseSalary": 41000,
+    "allowances": {
+      "transport": 1400,
+      "meal": 900,
+      "bonus": 2200,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2400,
+      "insurance": 750,
+      "other": 500,
+      "cooperativeFund": 550,
+      "healthInsurance": 600,
+      "loanDeduction": 5000
+    },
+    "bankAccount": "BCA 5566778899",
+    "joinDate": "2026-08-01",
+    "status": "active",
+    "overtimeRate": 1400,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP007",
+    "name": "Fatima Rahman",
+    "position": "Purchasing Staff",
+    "department": "Purchasing",
+    "email": "purchasing@enjoydive.com",
+    "phone": "+62 817-3456-7896",
+    "baseSalary": 41000,
+    "allowances": {
+      "transport": 1300,
+      "meal": 800,
+      "bonus": 2100,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2300,
+      "insurance": 700,
+      "other": 500,
+      "cooperativeFund": 500,
+      "healthInsurance": 550,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 7788990011",
+    "joinDate": "2026-01-15",
+    "status": "active",
+    "overtimeRate": 1300,
+    "religion": "muslim",
+    "isManagement": false,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+  {
+    "id": "EMP008",
+    "name": "Ahmad Arya Pratama",
+    "position": "IT Manager",
+    "department": "IT",
+    "email": "it.manager@enjoydive.com",
+    "phone": "+62 818-3456-7897",
+    "baseSalary": 39000,
+    "allowances": {
+      "transport": 1200,
+      "meal": 800,
+      "bonus": 2000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2200,
+      "insurance": 650,
+      "other": 500,
+      "cooperativeFund": 500,
+      "healthInsurance": 500,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 2233445566",
+    "joinDate": "2026-04-01",
+    "status": "active",
+    "overtimeRate": 1200,
+    "religion": "muslim",
+    "isManagement": true,
+    "holidaySettings": {
+      "idul_fitri": true,
+      "idul_adha": true,
+      "anniversary_bonus": true
+    }
+  },
+
+  {
+    "id": "EMP009",
+    "name": "Devi Rahman Karim",
+    "position": "IT Support",
+    "department": "IT",
+    "email": "it.support@enjoydive.com",
+    "phone": "+62 819-3456-7898",
+    "baseSalary": 38000,
+    "allowances": {
+      "transport": 1100,
+      "meal": 750,
+      "bonus": 1900,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2100,
+      "insurance": 600,
+      "other": 500,
+      "cooperativeFund": 450,
+      "healthInsurance": 500,
+      "loanDeduction": 0
+    },
+    "bankAccount": "Mandiri 9988771122",
+    "joinDate": "2026-02-10",
+    "status": "active",
+    "overtimeRate": 1100,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP010",
+    "name": "Susilo Rahman",
+    "position": "Equipment Manager",
+    "department": "Equipment",
+    "email": "equipment@enjoydive.com",
+    "phone": "+62 820-3456-7899",
+    "baseSalary": 37000,
+    "allowances": {
+      "transport": 1000,
+      "meal": 700,
+      "bonus": 1800,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 2000,
+      "insurance": 600,
+      "other": 500,
+      "cooperativeFund": 400,
+      "healthInsurance": 450,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 5566779911",
+    "joinDate": "2026-07-20",
+    "status": "active",
+    "overtimeRate": 1000,
+    "religion": "muslim",
+    "isManagement": true
+  },
+  {
+    "id": "EMP011",
+    "name": "Muhammad Bayu Santoso",
+    "position": "Senior Diving Instructor",
+    "department": "Developers",
+    "email": "instructor1@enjoydive.com",
+    "phone": "+62 821-3456-7800",
+    "baseSalary": 36000,
+    "allowances": {
+      "transport": 1000,
+      "meal": 700,
+      "bonus": 1700,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1900,
+      "insurance": 600,
+      "other": 0,
+      "cooperativeFund": 400,
+      "healthInsurance": 450,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 1122003344",
+    "joinDate": "2026-01-10",
+    "status": "active",
+    "overtimeRate": 1000,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP012",
+    "name": "Ahmad Yoga Pratama",
+    "position": "Diving Instructor",
+    "department": "Developers",
+    "email": "instructor2@enjoydive.com",
+    "phone": "+62 822-3456-7801",
+    "baseSalary": 35000,
+    "allowances": {
+      "transport": 950,
+      "meal": 650,
+      "bonus": 1600,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1850,
+      "insurance": 580,
+      "other": 0,
+      "cooperativeFund": 380,
+      "healthInsurance": 430,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 2233441100",
+    "joinDate": "2026-05-12",
+    "status": "active",
+    "overtimeRate": 950,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP013",
+    "name": "Muhammad Lestari Rahman",
+    "position": " Instructor",
+    "department": "Developers",
+    "email": "instructor3@enjoydive.com",
+    "phone": "+62 823-3456-7802",
+    "baseSalary": 35000,
+    "allowances": {
+      "transport": 950,
+      "meal": 650,
+      "bonus": 1600,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1850,
+      "insurance": 580,
+      "other": 0,
+      "cooperativeFund": 380,
+      "healthInsurance": 430,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 6677889900",
+    "joinDate": "2026-08-01",
+    "status": "active",
+    "overtimeRate": 950,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP014",
+    "name": "Ibrahim Wirawan",
+    "position": "Diving Instructor",
+    "department": "Developers",
+    "email": "instructor4@enjoydive.com",
+    "phone": "+62 824-3456-7803",
+    "baseSalary": 34000,
+    "allowances": {
+      "transport": 900,
+      "meal": 600,
+      "bonus": 1500,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1800,
+      "insurance": 560,
+      "other": 0,
+      "cooperativeFund": 370,
+      "healthInsurance": 420,
+      "loanDeduction": 0
+    },
+    "bankAccount": "Mandiri 5566007788",
+    "joinDate": "2026-09-15",
+    "status": "active",
+    "overtimeRate": 900,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP015",
+    "name": "Muhammad Eka Saputra",
+    "position": "Frontend Developer",
+    "department": "Developers",
+    "email": "divemaster1@enjoydive.com",
+    "phone": "+62 825-3456-7804",
+    "baseSalary": 33000,
+    "allowances": {
+      "transport": 850,
+      "meal": 600,
+      "bonus": 1400,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1750,
+      "insurance": 550,
+      "other": 0,
+      "cooperativeFund": 360,
+      "healthInsurance": 410,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 9988112233",
+    "joinDate": "2026-10-01",
+    "status": "active",
+    "overtimeRate": 850,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP016",
+    "name": "Wayan Muhammad Rudi",
+    "position": "Senior Dive Master",
+    "department": "Developers",
+    "email": "divemaster2@enjoydive.com",
+    "phone": "+62 826-3456-7805",
+    "baseSalary": 32000,
+    "allowances": {
+      "transport": 800,
+      "meal": 550,
+      "bonus": 1300,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1700,
+      "insurance": 500,
+      "other": 0,
+      "cooperativeFund": 350,
+      "healthInsurance": 400,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 7766554433",
+    "joinDate": "2026-02-15",
+    "status": "active",
+    "overtimeRate": 800,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP017",
+    "name": "Muhammad Pertho",
+    "position": "Backend Developer",
+    "department": "Developers",
+    "email": "divemaster3@enjoydive.com",
+    "phone": "+62 827-3456-7806",
+    "baseSalary": 31000,
+    "allowances": {
+      "transport": 750,
+      "meal": 500,
+      "bonus": 1200,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1650,
+      "insurance": 500,
+      "other": 0,
+      "cooperativeFund": 340,
+      "healthInsurance": 390,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 1122339988",
+    "joinDate": "2026-11-01",
+    "status": "active",
+    "overtimeRate": 750,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP018",
+    "name": "Ahmad Surya Dinata",
+    "position": "UI/UX Designer",
+    "department": "Developers",
+    "email": "divemaster4@enjoydive.com",
+    "phone": "+62 828-3456-7807",
+    "baseSalary": 30000,
+    "allowances": {
+      "transport": 750,
+      "meal": 500,
+      "bonus": 1200,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1600,
+      "insurance": 500,
+      "other": 0,
+      "cooperativeFund": 330,
+      "healthInsurance": 380,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 4455667788",
+    "joinDate": "2026-01-15",
+    "status": "active",
+    "overtimeRate": 750,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP019",
+    "name": "Muhammad Putri Maharani",
+    "position": "WordPress Developer",
+    "department": "Developers",
+    "email": "divemaster5@enjoydive.com",
+    "phone": "+62 829-3456-7808",
+    "baseSalary": 30000,
+    "allowances": {
+      "transport": 750,
+      "meal": 500,
+      "bonus": 1200,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1600,
+      "insurance": 500,
+      "other": 0,
+      "cooperativeFund": 330,
+      "healthInsurance": 380,
+      "loanDeduction": 0
+    },
+    "bankAccount": "Mandiri 5544332211",
+    "joinDate": "2026-04-10",
+    "status": "active",
+    "overtimeRate": 750,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP020",
+    "name": "Muhammad Dwi Kurniawan",
+    "position": "Frontend Developer",
+    "department": "Developers",
+    "email": "divemaster6@enjoydive.com",
+    "phone": "+62 830-3456-7809",
+    "baseSalary": 29000,
+    "allowances": {
+      "transport": 700,
+      "meal": 450,
+      "bonus": 1100,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1550,
+      "insurance": 480,
+      "other": 0,
+      "cooperativeFund": 320,
+      "healthInsurance": 370,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 6677881122",
+    "joinDate": "2026-06-01",
+    "status": "active",
+    "overtimeRate": 700,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP021",
+    "name": "Ahmad Ari Pradana",
+    "position": "Backend Developer",
+    "department": "Developers",
+    "email": "divemaster7@enjoydive.com",
+    "phone": "+62 831-3456-7810",
+    "baseSalary": 28000,
+    "allowances": {
+      "transport": 700,
+      "meal": 450,
+      "bonus": 1100,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1500,
+      "insurance": 470,
+      "other": 0,
+      "cooperativeFund": 310,
+      "healthInsurance": 360,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 3344556677",
+    "joinDate": "2026-09-15",
+    "status": "active",
+    "overtimeRate": 700,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP022",
+    "name": "Muhammad Aditya Nugraha",
+    "position": "UI/UX Designer",
+    "department": "Developers",
+    "email": "divemaster8@enjoydive.com",
+    "phone": "+62 832-3456-7811",
+    "baseSalary": 27000,
+    "allowances": {
+      "transport": 650,
+      "meal": 450,
+      "bonus": 1000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1450,
+      "insurance": 450,
+      "other": 0,
+      "cooperativeFund": 300,
+      "healthInsurance": 350,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 5566778899",
+    "joinDate": "2026-10-01",
+    "status": "active",
+    "overtimeRate": 650,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP023",
+    "name": "Muhammad Indra Kusuma",
+    "position": "WordPress Developer",
+    "department": "Developers",
+    "email": "divemaster9@enjoydive.com",
+    "phone": "+62 833-3456-7812",
+    "baseSalary": 27000,
+    "allowances": {
+      "transport": 650,
+      "meal": 450,
+      "bonus": 1000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1450,
+      "insurance": 450,
+      "other": 0,
+      "cooperativeFund": 300,
+      "healthInsurance": 350,
+      "loanDeduction": 0
+    },
+    "bankAccount": "Mandiri 1122446688",
+    "joinDate": "2026-01-01",
+    "status": "active",
+    "overtimeRate": 650,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP024",
+    "name": "Muhammad Eko Saputra",
+    "position": "Frontend Developer",
+    "department": "Developers",
+    "email": "divemaster10@enjoydive.com",
+    "phone": "+62 834-3456-7813",
+    "baseSalary": 27000,
+    "allowances": {
+      "transport": 650,
+      "meal": 450,
+      "bonus": 1000,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1450,
+      "insurance": 450,
+      "other": 0,
+      "cooperativeFund": 300,
+      "healthInsurance": 350,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 9988772233",
+    "joinDate": "2026-02-15",
+    "status": "active",
+    "overtimeRate": 650,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP025",
+    "name": "Muhammad Bagus Wirawan",
+    "position": "Backend Developer",
+    "department": "Developers",
+    "email": "divemaster11@enjoydive.com",
+    "phone": "+62 835-3456-7814",
+    "baseSalary": 26000,
+    "allowances": {
+      "transport": 600,
+      "meal": 400,
+      "bonus": 900,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1400,
+      "insurance": 430,
+      "other": 0,
+      "cooperativeFund": 290,
+      "healthInsurance": 340,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 1122337788",
+    "joinDate": "2026-03-10",
+    "status": "active",
+    "overtimeRate": 600,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP026",
+    "name": "Muhammad Suteja Rahman",
+    "position": "Senior Driver",
+    "department": "Transport",
+    "email": "driver1@enjoydive.com",
+    "phone": "+62 836-3456-7815",
+    "baseSalary": 25000,
+    "allowances": {
+      "transport": 800,
+      "meal": 400,
+      "bonus": 800,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1350,
+      "insurance": 400,
+      "other": 0,
+      "cooperativeFund": 280,
+      "healthInsurance": 330,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BNI 4455667788",
+    "joinDate": "2026-06-01",
+    "status": "active",
+    "overtimeRate": 600,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP027",
+    "name": "Muhammad Rafiq Hasan",
+    "position": "Driver",
+    "department": "Transport",
+    "email": "driver2@enjoydive.com",
+    "phone": "+62 837-3456-7816",
+    "baseSalary": 24000,
+    "allowances": {
+      "transport": 800,
+      "meal": 400,
+      "bonus": 800,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1300,
+      "insurance": 380,
+      "other": 0,
+      "cooperativeFund": 270,
+      "healthInsurance": 320,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BCA 7788991122",
+    "joinDate": "2026-07-10",
+    "status": "active",
+    "overtimeRate": 600,
+    "religion": "muslim",
+    "isManagement": false
+  },
+  {
+    "id": "EMP028",
+    "name": "Muhammad Imran Hossain",
+    "position": "Assistant Driver",
+    "department": "Transport",
+    "email": "driver3@enjoydive.com",
+    "phone": "+62 838-3456-7817",
+    "baseSalary": 23000,
+    "allowances": {
+      "transport": 750,
+      "meal": 350,
+      "bonus": 700,
+      "overtime": 0,
+      "tips": 0,
+      "holidayAllowance": 0
+    },
+    "deductions": {
+      "tax": 1250,
+      "insurance": 350,
+      "other": 0,
+      "cooperativeFund": 260,
+      "healthInsurance": 300,
+      "loanDeduction": 0
+    },
+    "bankAccount": "BRI 8899001122",
+    "joinDate": "2026-09-01",
+    "status": "active",
+    "overtimeRate": 550,
+    "religion": "muslim",
+    "isManagement": false
+  }
+]
