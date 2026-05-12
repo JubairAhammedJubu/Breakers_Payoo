@@ -95,7 +95,7 @@ const Dashboard = () => {
   return (
     <div className="p-4 sm:p-6 lg:p-8 xl:p-12 space-y-6 sm:space-y-8 lg:space-y-12">
       {/* Company Header */}
-      <div className="bg-linear-to-br from-slate-900 via-slate-800 to-slate-700 rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-10 xl:p-12 text-white shadow-2xl">
+      <div className="bg-gradient-to-r from-indigo-500 to-purple-500 dark:bg-gradient-to-br dark:from-slate-900 dark:via-slate-800 dark:to-slate-700 rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-10 xl:p-12 text-white shadow-2xl">
         <div className="flex flex-col space-y-6 lg:space-y-8">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between space-y-6 sm:space-y-0">
             <div className="flex-1">
@@ -110,7 +110,7 @@ const Dashboard = () => {
                   </h1>
 
                   <p className="text-slate-300 text-base sm:text-lg lg:text-xl mt-1">
-                    Premier Payrollment IT Center in Dhaka
+                    Premier Payrollment IT Center
                   </p>
                 </div>
               </div>
@@ -177,7 +177,7 @@ const Dashboard = () => {
             </div>
 
             <div className="flex-1">
-              <p className="text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white leading-none">
+              <p className="text-3xl lg:text-4xl font-bold text-slate-600 dark:text-white leading-none">
                 {stats.totalEmployees}
               </p>
             </div>
@@ -214,7 +214,7 @@ const Dashboard = () => {
             </div>
 
             <div className="flex-1">
-              <p className="text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white leading-none wrap-break-word">
+              <p className="text-2xl lg:text-3xl font-bold text-slate-600 dark:text-white leading-none wrap-break-word">
                 {formatCurrency(stats.totalPayroll)}
               </p>
             </div>
@@ -243,7 +243,7 @@ const Dashboard = () => {
             </div>
 
             <div className="flex-1">
-              <p className="text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white leading-none">
+              <p className="text-3xl lg:text-4xl font-bold text-slate-600 dark:text-white leading-none">
                 {Object.keys(stats.departmentStats).length}
               </p>
             </div>
@@ -272,7 +272,7 @@ const Dashboard = () => {
             </div>
 
             <div className="flex-1">
-              <p className="text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white leading-none wrap-break-word">
+              <p className="text-2xl lg:text-3xl font-bold text-slate-600 dark:text-white leading-none wrap-break-word">
                 {formatCurrency(avgSalary).replace("Rp", "Rp ")}
               </p>
             </div>
@@ -290,7 +290,7 @@ const Dashboard = () => {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
         <div className="xl:col-span-2 bg-white dark:bg-slate-800 rounded-xl lg:rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg border border-slate-200 dark:border-slate-700">
           <div className="mb-6 sm:mb-8">
-            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 dark:text-white">
+            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-700 dark:text-white">
               Department Distribution
             </h3>
             <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
@@ -436,7 +436,7 @@ const Dashboard = () => {
 
       {/* Department Breakdown */}
       <div className="bg-white dark:bg-slate-800 rounded-xl lg:rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg border border-slate-200 dark:border-slate-700">
-        <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 dark:text-white mb-6 sm:mb-8">
+        <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-700 dark:text-white mb-6 sm:mb-8">
           Department Overview
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6">
@@ -446,7 +446,7 @@ const Dashboard = () => {
               className="text-center p-4 sm:p-6 bg-slate-50 dark:bg-slate-700 rounded-xl border border-slate-200 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-600 transition-all duration-200 group cursor-pointer"
               onClick={() => handleQuickAction("employees")}
             >
-              <p className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300">
+              <p className="text-2xl sm:text-3xl font-bold text-slate-600 dark:text-white mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300">
                 {count}
               </p>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-tight font-medium">

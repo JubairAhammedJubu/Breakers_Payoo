@@ -225,7 +225,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
         {/* Header */}
         <div className="flex items-center justify-between p-8 border-b border-slate-200 dark:border-slate-700 shrink-0">
           <div>
-            <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+            <h2 className="text-3xl font-bold text-slate-700 dark:text-white">
               Payroll Reports
             </h2>
 
@@ -242,7 +242,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
             onClick={onClose}
             className="p-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition"
           >
-            <X className="w-6 h-6" />
+            <X className="w-6 h-6 text-slate-700 dark:text-white" />
           </button>
         </div>
 
@@ -261,7 +261,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
                     className={`p-4 rounded-xl font-semibold transition ${
                       reportType === "monthly"
                         ? "bg-slate-700 text-white"
-                        : "bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-600"
+                        : "bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-white"
                     }`}
                   >
                     <Calendar className="w-5 h-5 mx-auto mb-2" />
@@ -273,7 +273,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
                     className={`p-4 rounded-xl font-semibold transition ${
                       reportType === "annual"
                         ? "bg-slate-700 text-white"
-                        : "bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-600"
+                        : "bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-white"
                     }`}
                   >
                     <TrendingUp className="w-5 h-5 mx-auto mb-2" />
@@ -388,11 +388,11 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
 
             {/* Department Breakdown */}
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-slate-900 dark:text-white">
+              <h3 className="text-2xl font-bold mb-6 text-slate-700 dark:text-white">
                 Department Breakdown
               </h3>
 
-              <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-700">
+              <div className="overflow-x-auto rounded-2xl border text-slate-700 dark:text-white border-slate-200 dark:border-slate-700">
                 <table className="w-full text-sm">
                   <thead className="bg-slate-100 dark:bg-slate-700">
                     <tr>
@@ -435,7 +435,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
             </div>
 
             {/* Top Earners */}
-            <div className="mt-12">
+            <div className="mt-12 text-slate-700 dark:text-white">
               <h3 className="text-2xl font-bold mb-6">Top Earners</h3>
 
               <div className="space-y-4">
@@ -444,7 +444,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
                   .map((employee, index) => (
                     <div
                       key={employee.name}
-                      className="flex justify-between items-center bg-slate-50 dark:bg-slate-700 rounded-2xl p-4"
+                      className="flex justify-between items-center bg-slate-100 dark:bg-slate-700 rounded-2xl p-4"
                     >
                       <div className="flex items-center gap-4">
                         <div className="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold">

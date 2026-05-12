@@ -97,10 +97,10 @@ const PayrollProcessing = () => {
     employees.length > 0 ? (completedCount / employees.length) * 100 : 0;
 
   return (
-    <div className="p-6 lg:p-8 space-y-8">
+    <div className="p-3 lg:p-8 space-y-8">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+          <h2 className="text-3xl font-bold text-slate-700 dark:text-white">
             Payroll Processing
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-lg mt-2">
@@ -138,7 +138,7 @@ const PayrollProcessing = () => {
           <button
             onClick={startProcessing}
             disabled={isProcessing || completedProcessing}
-            className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 flex items-center space-x-3 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-purple-700 hover:bg-purple-500 dark:bg-slate-900 dark:hover:bg-slate-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 flex items-center space-x-3 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isProcessing ? (
               <>
@@ -242,7 +242,7 @@ const PayrollProcessing = () => {
             </div>
             <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-4">
               <div
-                className="bg-gradient-to-r from-slate-600 to-slate-800 h-4 rounded-full transition-all duration-500"
+                className="bg-gradient-to-r from-indigo-100 to-purple-300 dark:from-slate-600 dark:to-slate-800 h-4 rounded-full transition-all duration-500"
                 style={{width: `${overallProgress}%`}}
               />
             </div>
@@ -273,7 +273,7 @@ const PayrollProcessing = () => {
                 >
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-4">
-                      <div className="bg-gradient-to-br from-slate-600 to-slate-800 p-3 rounded-xl text-white font-bold text-sm">
+                      <div className="bg-gradient-to-br from-indigo-500 to-purple-600 dark:bg-gradient-to-br dark:from-slate-600 dark:to-slate-800 p-3 rounded-xl text-white font-bold text-sm">
                         {employee.name
                           .split(" ")
                           .map((n) => n[0])
@@ -315,7 +315,7 @@ const PayrollProcessing = () => {
                   {status.status !== "pending" && (
                     <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3">
                       <div
-                        className="bg-gradient-to-r from-slate-600 to-slate-800 h-3 rounded-full transition-all duration-500"
+                        className="bg-gradient-to-r from-indigo-100 to-purple-300 dark:from-slate-600 dark:to-slate-800 h-3 rounded-full transition-all duration-500"
                         style={{width: `${status.progress}%`}}
                       />
                     </div>

@@ -63,10 +63,10 @@ const PaySlipGenerator = () => {
 
 
   return (
-    <div className="p-6 lg:p-8 space-y-8">
+    <div className="p-2 lg:p-8 space-y-8">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+          <h2 className="text-3xl font-bold text-slate-700 dark:text-white">
             Pay Slip Generator
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-lg mt-2">
@@ -186,19 +186,19 @@ const PaySlipGenerator = () => {
       {/* Pay Slip Preview */}
       {payslip && employee && (
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 overflow-hidden">
-          <div className="p-10" id="payslip-content">
+          <div className="p-5 md:p-10" id="payslip-content">
             {/* Header */}
-            <div className="bg-gradient-to-r from-slate-900 to-slate-700 text-white p-8 rounded-2xl mb-8">
-              <div className="flex items-center justify-between">
+            <div className="bg-gradient-to-r from-indigo-500 to-purple-500 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 text-white p-8 rounded-2xl mb-8">
+              <div className="md:flex items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-bold mb-3">ENJOY DIVE</h1>
-                  <p className="text-slate-300 text-lg">
-                    Premier Diving Center in Bali
+                  <h1 className="text-3xl font-bold mb-3">Brakers Payoo</h1>
+                  <p className="text-slate-300 md:text-lg">
+                    Premier Payrollment IT Center
                   </p>
-                  <div className="flex items-center space-x-6 mt-4 text-sm">
+                  <div className="md:flex items-center space-x-6 md:space-y-0 space-y-4 mt-4 text-sm">
                     <div className="flex items-center space-x-2">
                       <MapPin className="h-4 w-4" />
-                      <span>Sanur Beach, Bali</span>
+                      <span>Uttara, Dhaka,</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Phone className="h-4 w-4" />
@@ -206,7 +206,7 @@ const PaySlipGenerator = () => {
                     </div>
                   </div>
                 </div>
-                <div className="text-right">
+                <div className="text-right hidden md:block">
                   <div className="bg-white/20 backdrop-blur-sm p-4 rounded-xl">
                     <FileText className="h-10 w-10 mb-3" />
                     <p className="text-sm font-semibold">PAY SLIP</p>
@@ -467,13 +467,21 @@ const PaySlipGenerator = () => {
               </div>
 
               {/* Net Salary */}
-              <div className="mt-8 bg-gradient-to-r from-slate-900 to-slate-700 text-white p-8 rounded-2xl">
-                <div className="flex items-center justify-between">
+              <div
+                className="mt-8 bg-violet-100
+                      text-slate-600 dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 dark:text-white p-8 rounded-2xl"
+              >
+                <div className="md:flex items-center justify-between">
                   <div>
                     <h4 className="text-xl font-bold mb-2">Net Salary</h4>
-                    <p className="text-slate-300">Amount to be paid</p>
+                    <p
+                      className="text-slate-500
+                      dark:text-slate-300"
+                    >
+                      Amount to be paid
+                    </p>
                   </div>
-                  <div className="text-right">
+                  <div className="md:text-right">
                     <p className="text-4xl font-bold">
                       {formatCurrency(payslip.netSalary)}
                     </p>
@@ -494,7 +502,7 @@ const PaySlipGenerator = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="bg-slate-50 dark:bg-slate-700 px-10 py-6 flex items-center justify-between border-t border-slate-200 dark:border-slate-600">
+          <div className="bg-slate-50 dark:bg-slate-700 px-10 py-6 md:flex items-center justify-between border-t border-slate-200 dark:border-slate-600 space-y-2 md:space-y-0">
             <div className="text-sm text-slate-600 dark:text-slate-400 font-medium">
               Pay slip ID: {payslip.id}
             </div>

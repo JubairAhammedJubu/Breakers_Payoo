@@ -77,10 +77,10 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center p-4">
-      <div className="w-full container max-w-300 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center p-6 py-10">
+      <div className="w-full container max-w-300 grid grid-cols-1 grid-wrap lg:grid-cols-2 gap-8 lg:gap-12">
         {/* Left Side - Branding */}
-        <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left space-y-6 lg:space-y-8 order-2 lg:order-1">
+        <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left space-y-6 lg:space-y-8">
           <div className="flex items-center space-x-4 lg:space-x-6">
             <div className="bg-gradient-to-br from-slate-700 to-slate-900 p-4 lg:p-6 rounded-2xl lg:rounded-3xl shadow-2xl">
               <Waves className="h-8 w-8 lg:h-12 lg:w-12 text-white" />

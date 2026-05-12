@@ -138,22 +138,22 @@ export default function EmployeeList() {
   };
 
   return (
-    <div className="p-6 lg:p-8 space-y-8">
+    <div className="p-3 lg:p-8 space-y-8">
       {/* Header */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
         <div>
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-700 dark:text-white">
             Employee Management
           </h2>
 
-          <p className="text-slate-600 dark:text-slate-400 text-lg mt-2">
+          <p className="text-slate-600 dark:text-slate-400 md:text-lg mt-2">
             Manage your team of {employeeList.length} employees
           </p>
         </div>
 
         <button
           onClick={handleAddEmployee}
-          className="bg-slate-700 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2"
+          className="bg-gradient-to-r from-indigo-500 to-purple-600 dark:from-slate-800 dark:to-slate-600 hover:from-indigo-600 hover:to-purple-500 dark:hover:from-slate-600 dark:hover:to-slate-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2"
         >
           <Plus className="h-5 w-5" />
           <span>Add Employee</span>
@@ -215,7 +215,7 @@ export default function EmployeeList() {
             {/* Header */}
             <div className="flex items-start justify-between mb-4">
               <div className="flex items-center gap-4">
-                <div className="bg-gradient-to-br from-slate-600 to-slate-800 p-3 rounded-xl text-white font-bold">
+                <div className="bg-gradient-to-br from-indigo-500 to-purple-600 dark:bg-gradient-to-br dark:from-slate-600 dark:to-slate-800 p-3 rounded-xl text-white font-bold">
                   {employee.name
                     .split(" ")
                     .map((n) => n[0])
@@ -224,7 +224,7 @@ export default function EmployeeList() {
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-slate-900 dark:text-white">
+                  <h3 className="font-bold text-slate-700 dark:text-white">
                     {employee.name}
                   </h3>
 
@@ -662,7 +662,7 @@ export default function EmployeeList() {
                 {modalMode !== "view" && (
                   <button
                     onClick={handleSave}
-                    className="px-5 py-2 bg-slate-700 text-white rounded-xl cursor-pointer"
+                    className="px-5 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 dark:from-slate-700 dark:to-slate-600 hover:from-indigo-600 hover:to-purple-500 dark:hover:from-slate-600 dark:hover:to-slate-700 text-white rounded-xl cursor-pointer"
                   >
                     Save Employee
                   </button>

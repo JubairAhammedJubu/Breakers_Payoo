@@ -5,6 +5,7 @@ import {authClient} from "@/lib/auth-client";
 import Image from "next/image";
 import {useForm} from "react-hook-form";
 import {toast} from "react-toastify";
+import Loading from "@/app/loading";
 
 const ProfilePage = () => {
   const {data, isPending} = authClient.useSession();
@@ -27,15 +28,16 @@ const ProfilePage = () => {
 
   if (isPending) {
     return (
-      <div className="min-h-[60vh] flex items-center justify-center">
-        <p>Loading profile...</p>
+      <div className="min-h-[60vh] flex items-center justify-center text-slate-700">
+        <span className="mr-2">Waiting...  </span>
+        <Loading />
       </div>
     );
   }
 
   if (!user) {
     return (
-      <div className="min-h-[60vh] flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <p>User not found. Please login again.</p>
       </div>
     );
@@ -66,13 +68,13 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className=" p-6 lg:p-5">
-      <div className="w-full max-w-md bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl rounded-3xl overflow-hidden border border-base-300 mx-auto">
+    <div className=" p-2 lg:p-5">
+      <div className="w-full max-w-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl rounded-3xl overflow-hidden border border-base-300 mx-auto">
         {/* Header */}
         <div className="bg-gradient-to-r from-indigo-500 to-purple-600 h-2 relative" />
 
         {/* Profile */}
-        <div className="px-6 pb-8">
+        <div className="px-4 md:px-6 pb-8">
           <div className="flex flex-col items-center mt-6">
             <div className="rounded-full border border-white overflow-hidden shadow-lg">
               <Image
@@ -85,7 +87,7 @@ const ProfilePage = () => {
               />
             </div>
 
-            <span className="m-7 px-4 py-1 text-2xl font-bold rounded-full bg-indigo-200 text-indigo-900 capitalize">
+            <span className="m-7 px-4 py-1 md:text-2xl font-bold rounded-full bg-indigo-200 text-indigo-900 capitalize">
               {user?.name || "Unknown User"}
             </span>
           </div>
@@ -94,12 +96,16 @@ const ProfilePage = () => {
           <div className="space-y-4">
             <div className="bg-gray-100 dark:bg-slate-300 rounded-xl p-4">
               <p className="text-sm text-gray-500">Email Address</p>
-              <h3 className="font-semibold text-lg">{user?.email}</h3>
+              <h3 className="text-base font-semibold md:text-lg text-slate-700">
+                {user?.email}
+              </h3>
             </div>
 
             <div className="bg-gray-100 dark:bg-slate-300 rounded-xl p-4">
               <p className="text-sm text-gray-500">Role</p>
-              <h3 className="font-semibold text-lg capitalize">{user?.role}</h3>
+              <h3 className="text-base font-semibold md:text-lg text-slate-700 capitalize">
+                {user?.role}
+              </h3>
             </div>
           </div>
 

@@ -70,16 +70,16 @@ export const generatePDF = async (payslip, company) => {
     // LEFT SIDE
     pdf.setFontSize(22);
     pdf.setFont("helvetica", "bold");
-    pdf.text("ENJOY DIVE", 15, 18);
+    pdf.text("Breakers Payoo", 15, 18);
 
     pdf.setFontSize(10);
     pdf.setFont("helvetica", "normal");
-    pdf.text("Premier Diving Center", 15, 27);
+    pdf.text("Premier Payrollment IT Center", 15, 27);
 
     // RIGHT SIDE
-    pdf.setFontSize(18);
+    pdf.setFontSize(15);
     pdf.setFont("helvetica", "bold");
-    pdf.text("MONTHLY REPORT", pageWidth - 15, 18, {align: "right"});
+    pdf.text("MONTHLY SALARY REPORT", pageWidth - 15, 18, {align: "right"});
 
     pdf.setFontSize(10);
     pdf.setFont("helvetica", "normal");

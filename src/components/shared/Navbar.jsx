@@ -38,7 +38,7 @@ const Navbar = ({onMenuClick}) => {
 
 
   return (
-    <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-700 px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+    <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-700 px-4 sm:px-6 lg:px-8 py-4 sm:py-6 shadow">
       <div className="flex items-center justify-between">
         {/* Left Section */}
         <div className="flex items-center space-x-4">
@@ -89,10 +89,10 @@ const Navbar = ({onMenuClick}) => {
               <>
                 <button
                   onClick={() => setShowUserMenu(!showUserMenu)}
-                  className="flex items-center space-x-2 sm:space-x-3 lg:space-x-2 pl-3 sm:pl-4 border-l border-slate-200 dark:border-slate-700"
+                  className="flex items-center space-x-2 sm:space-x-3 lg:space-x-2 pl-3 sm:pl-4 border-l border-slate-200 dark:border-slate-600"
                 >
                   {/* User Image */}
-                  <div className="relative h-10 w-10 sm:h-12 sm:w-12">
+                  <div className="relative h-10 w-10 sm:h-11 sm:w-11">
                     {user?.image ? (
                       <Image
                         src={user.image}

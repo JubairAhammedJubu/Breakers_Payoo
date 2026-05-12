@@ -60,17 +60,21 @@ export const generateReportPDF = async (reportData) => {
     pdf.setTextColor(255, 255, 255);
     pdf.setFontSize(10);
     pdf.setFont("helvetica", "bold");
-    pdf.text("ED", 18, 22, {align: "center"});
+    pdf.text("BP", 18, 22, {align: "center"});
 
     // Company Name
     pdf.setTextColor(...colors.primary);
     pdf.setFontSize(18);
     pdf.setFont("helvetica", "bold");
-    pdf.text("Enjoy Dive", 30, 20);
+    pdf.text("Breakers Payoo", 30, 20);
 
     pdf.setFontSize(10);
     pdf.setFont("helvetica", "normal");
-    pdf.text("Payroll Management Report", 30, 26);
+    pdf.text("Premier Payrollment IT Center", 30, 27);
+
+    pdf.setFontSize(10);
+    pdf.setFont("helvetica", "normal");
+    pdf.text("Payroll Management Report", 30, 33);
 
     // Right side info
     pdf.setFontSize(10);
@@ -188,7 +192,7 @@ export const generateReportPDF = async (reportData) => {
       y += 10;
     });
 
-    y += 8;
+    y += 12;
 
     /**
      * =====================================
@@ -200,7 +204,7 @@ export const generateReportPDF = async (reportData) => {
     pdf.setTextColor(...colors.primary);
     pdf.text("Department Breakdown", 15, y);
 
-    y += 15;
+    y += 10;
 
     (reportData.departmentBreakdown || []).forEach((d, i) => {
       if (y > pageHeight - 30) {
@@ -241,7 +245,7 @@ export const generateReportPDF = async (reportData) => {
     pdf.setTextColor(...colors.gray);
     pdf.setFontSize(8);
 
-    pdf.text("Confidential Payroll Report - Enjoy Dive", 15, footer);
+    pdf.text("Confidential Payroll Report - Breakers Payoo", 15, footer);
 
     pdf.text(`Page ${pdf.getNumberOfPages()}`, pageWidth - 15, footer, {
       align: "right",
