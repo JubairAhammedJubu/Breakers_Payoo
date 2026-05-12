@@ -106,9 +106,9 @@ export default function Register() {
               Payroll Management System
             </h2>
             <p className="text-base lg:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              Streamline your dive center operations with our comprehensive
-              payroll management solution. Manage 33+ staff members across all
-              departments with ease.
+              Streamline your business operations with our modern payroll and
+              employee management solution. Efficiently manage staff, salaries, departments, and administrative workflows from one
+              centralized platform.
             </p>
 
             <div className="grid grid-cols-2 gap-4 lg:gap-6 pt-4 lg:pt-6">
