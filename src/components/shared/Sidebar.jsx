@@ -66,7 +66,7 @@ const Sidebar = ({onTabChange}) => {
 
           <div className="min-w-0 flex-1">
             <Link href="/dashboard">
-              <h1 className="text-lg lg:text-xl font-bold text-slate-900 dark:text-white truncate cursor-pointer">
+              <h1 className="text-lg lg:text-xl font-bold bg-linear-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent  dark:text-white truncate cursor-pointer">
                 Breakers Payoo
               </h1>
             </Link>
@@ -94,7 +94,7 @@ const Sidebar = ({onTabChange}) => {
                   onClick={() => onTabChange(item.id)}
                   className={`w-full flex items-center space-x-3 lg:space-x-4 px-3 lg:px-4 py-3 lg:py-4 rounded-xl text-left transition-all duration-200 ${
                     isActive
-                      ? "bg-slate-900 dark:bg-slate-700 text-white shadow-lg"
+                      ? "bg-linear-to-r from-indigo-500 to-purple-600 dark:bg-slate-700 text-white shadow-lg"
                       : "text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
                   }`}
                 >

@@ -329,7 +329,7 @@ export default function Register() {
               Login with Google
             </button>
 
-            <p className="text-sm text-center mt-6">
+            <p className="text-sm text-center text-slate-500 mt-6">
               Already have an account?{" "}
               <a
                 href="/login"

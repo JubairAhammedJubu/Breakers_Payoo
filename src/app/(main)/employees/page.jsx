@@ -171,14 +171,14 @@ export default function EmployeeList() {
               placeholder="Search employees..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700"
+              className="w-full pl-10 pr-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700 text-slate-700 dark:text-white"
             />
           </div>
 
           <select
             value={selectedDepartment}
             onChange={(e) => setSelectedDepartment(e.target.value)}
-            className="px-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700"
+            className="px-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700 text-slate-700 dark:text-white"
           >
             <option value="">All Departments</option>
 
@@ -190,7 +190,7 @@ export default function EmployeeList() {
           <select
             value={selectedStatus}
             onChange={(e) => setSelectedStatus(e.target.value)}
-            className="px-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700"
+            className="px-4 py-3 border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-700 text-slate-700 dark:text-white"
           >
             <option value="">All Status</option>
             <option value="active">Active</option>
@@ -244,7 +244,7 @@ export default function EmployeeList() {
             </div>
 
             {/* Details */}
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-6 text-slate-700 dark:text-white">
               <div className="flex items-center gap-3">
                 <Building className="h-4 w-4 text-slate-400" />
 
@@ -297,7 +297,7 @@ export default function EmployeeList() {
                 </span>
               </div>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 text-slate-700 dark:text-white">
                 <button
                   onClick={() => handleViewEmployee(employee)}
                   className="p-2 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg"
@@ -329,7 +329,7 @@ export default function EmployeeList() {
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white dark:bg-slate-800 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden">
             {/* Header */}
-            <div className="flex items-center justify-between p-6 border-b border-slate-200 dark:border-slate-700">
+            <div className="flex items-center justify-between p-6 border-b border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white">
               <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
                 {modalMode === "add"
                   ? "Add Employee"
@@ -344,8 +344,8 @@ export default function EmployeeList() {
             </div>
 
             {/* Content */}
-            <div className="p-6 overflow-y-auto max-h-[calc(90vh-140px)]">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="p-6 overflow-y-auto max-h-[calc(90vh-140px)] text-slate-900 dark:text-white">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
                 {/* Left */}
                 <div className="space-y-6">
                   <h3 className="text-lg font-semibold">
@@ -393,7 +393,7 @@ export default function EmployeeList() {
                               position: e.target.value,
                             })
                           }
-                          className="w-full px-4 py-3 border bg-slate-800 rounded-xl"
+                          className="w-full px-4 py-3 border bg-white dark:bg-slate-800 rounded-xl"
                         >
                           <option value="">Select Position</option>
 
@@ -421,7 +421,7 @@ export default function EmployeeList() {
                               department: e.target.value,
                             })
                           }
-                          className="w-full px-4 py-3 border bg-slate-800 rounded-xl"
+                          className="w-full px-4 py-3 border bg-white dark:bg-slate-800 rounded-xl"
                         >
                           <option value="">All Departments</option>
 
@@ -453,7 +453,7 @@ export default function EmployeeList() {
                               religion: e.target.value,
                             })
                           }
-                          className="w-full px-4 py-3 border bg-slate-800 rounded-xl"
+                          className="w-full px-4 py-3 border bg-white dark:bg-slate-800 rounded-xl"
                         >
                           {religions.map((religion) => (
                             <option key={religion.value} value={religion.value}>
@@ -659,17 +659,10 @@ export default function EmployeeList() {
 
               {/* Footer */}
               <div className="flex justify-end gap-3 mt-8">
-                <button
-                  onClick={() => setShowModal(false)}
-                  className="px-5 py-2 border rounded-xl"
-                >
-                  Cancel
-                </button>
-
                 {modalMode !== "view" && (
                   <button
                     onClick={handleSave}
-                    className="px-5 py-2 bg-slate-900 text-white rounded-xl"
+                    className="px-5 py-2 bg-slate-700 text-white rounded-xl cursor-pointer"
                   >
                     Save Employee
                   </button>

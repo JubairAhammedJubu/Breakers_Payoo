@@ -52,7 +52,7 @@ const Navbar = ({onMenuClick}) => {
 
           {/* Logo / Title */}
           <div className="min-w-0 flex-1">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 dark:text-white truncate cursor-pointer">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-700 dark:text-white truncate cursor-pointer">
               Payroll Management
             </h2>
 
@@ -81,7 +81,7 @@ const Navbar = ({onMenuClick}) => {
             {!user ? (
               <Link
                 href="/login"
-                className="px-4 py-2 rounded-xl bg-slate-900 text-white text-sm font-medium hover:bg-slate-700 transition"
+                className="px-4 py-2 rounded-xl bg-linear-to-r from-indigo-500 to-purple-600 dark:bg-slate-900 text-white text-sm font-medium hover:bg-slate-700 transition"
               >
                 Login
               </Link>
@@ -108,7 +108,7 @@ const Navbar = ({onMenuClick}) => {
                   </div>
 
                   <div className="hidden sm:block text-left">
-                    <p className="font-semibold text-slate-900 dark:text-white text-sm">
+                    <p className="font-semibold text-slate-700 dark:text-white text-sm">
                       {user?.name}
                     </p>
 

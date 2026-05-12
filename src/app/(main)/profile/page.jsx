@@ -92,12 +92,12 @@ const ProfilePage = () => {
 
           {/* Info */}
           <div className="space-y-4">
-            <div className="bg-base-200 rounded-xl p-4">
+            <div className="bg-gray-100 dark:bg-slate-300 rounded-xl p-4">
               <p className="text-sm text-gray-500">Email Address</p>
               <h3 className="font-semibold text-lg">{user?.email}</h3>
             </div>
 
-            <div className="bg-base-200 rounded-xl p-4">
+            <div className="bg-gray-100 dark:bg-slate-300 rounded-xl p-4">
               <p className="text-sm text-gray-500">Role</p>
               <h3 className="font-semibold text-lg capitalize">{user?.role}</h3>
             </div>
@@ -106,7 +106,7 @@ const ProfilePage = () => {
           {/* Button */}
           <button
             onClick={() => setOpenModal(true)}
-            className="btn w-full mt-8 bg-gradient-to-r from-indigo-500 to-purple-600 border-none text-white"
+            className="btn w-full mt-8 bg-linear-to-r from-indigo-500 to-purple-600 border-none text-white"
           >
             Update Profile
           </button>

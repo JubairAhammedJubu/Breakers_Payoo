@@ -247,14 +247,14 @@ export default function Login() {
                 <button
                   key={i}
                   onClick={() => fillDemoAccount(acc.email, acc.password)}
-                  className="w-full text-left p-3 border rounded-lg hover:bg-slate-700"
+                  className="w-full text-left p-3 border rounded-lg dark:text-white text-slate-900 hover:bg-slate-500"
                 >
                   <div className="text-sm font-semibold">{acc.role}</div>
-                  <div className="text-xs text-slate-500">{acc.email}</div>
+                  <div className="text-xs text-slate-400">{acc.email}</div>
                 </button>
               ))}
 
-              <p className="text-sm text-center mt-3">
+              <p className="text-sm text-center mt-3 text-slate-500">
                 Don’t have an account?{" "}
                 <a
                   href="/registration"
