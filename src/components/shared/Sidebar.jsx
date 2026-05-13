@@ -58,10 +58,14 @@ const Sidebar = ({onTabChange}) => {
   return (
     <div className="bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 w-64 lg:w-72 min-h-screen flex flex-col">
       {/* Logo */}
-      <div className="p-4 sm:p-6 lg:p-[27px] border-b border-slate-200 dark:border-slate-700 shadow">
+      <div className="p-4 sm:p-6 lg:p-6.5 border-b border-slate-200 dark:border-slate-700 shadow">
         <div className="flex items-center space-x-3 lg:space-x-4">
-          <div className="bg-gradient-to-br from-slate-700 to-slate-900 p-2.5 lg:p-3 rounded-xl">
-            <Waves className="h-5 w-5 lg:h-7 lg:w-7 text-white" />
+          <div className="bg-gradient-to-br from-slate-700 to-slate-900 p-1 rounded-xl">
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="h-10 w-10 lg:h-12 lg:w-12 object-contain rounded-xl"
+            />
           </div>
 
           <div className="min-w-0 flex-1">

@@ -82,8 +82,12 @@ export default function Login() {
         {/* Left Side - Branding */}
         <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left space-y-6 lg:space-y-8">
           <div className="flex items-center space-x-4 lg:space-x-6">
-            <div className="bg-gradient-to-br from-slate-700 to-slate-900 p-4 lg:p-6 rounded-2xl lg:rounded-3xl shadow-2xl">
-              <Waves className="h-8 w-8 lg:h-12 lg:w-12 text-white" />
+            <div className="bg-gradient-to-br from-slate-700 to-slate-900 p-2 rounded-2xl lg:rounded-3xl shadow-2xl">
+              <img
+                src="/logo.png"
+                alt="Logo"
+                className="h-12 w-12 lg:h-20 lg:w-20 object-contain rounded-2xl"
+              />
             </div>
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 dark:text-white">
@@ -102,8 +106,8 @@ export default function Login() {
             <p className="text-base lg:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
               Streamline your business operations with our modern payroll and
               employee management solution. Efficiently manage staff, salaries,
-              departments, and administrative workflows from one
-              centralized platform.
+              departments, and administrative workflows from one centralized
+              platform.
             </p>
 
             <div className="grid grid-cols-2 gap-4 lg:gap-6 pt-4 lg:pt-6">
