@@ -56,7 +56,7 @@ const Navbar = ({onMenuClick}) => {
               Payroll Management
             </h2>
 
-            <p className="text-slate-600 dark:text-slate-400 mt-1 text-xs sm:text-sm lg:text-base hidden sm:block">
+            <p className="text-slate-600 dark:text-slate-400 md:mt-1 text-xs sm:text-sm lg:text-base">
               ByteCode Breakers IT Center
             </p>
           </div>
