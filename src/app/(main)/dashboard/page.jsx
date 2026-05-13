@@ -104,7 +104,7 @@ const Dashboard = () => {
                   <img
                     src="/logo.png"
                     alt="Logo"
-                    className="h-15 w-15 lg:h-22 lg:w-22 object-contain rounded-xl"
+                    className="h-14 w-14 lg:h-22 lg:w-22 object-contain rounded-xl"
                   />
                 </div>
 
