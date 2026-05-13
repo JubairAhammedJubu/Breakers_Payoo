@@ -46,6 +46,7 @@ export default function Login() {
       return;
     }
 
+    
     if (res) {
       toast.success("Login successful");
       router.push("/dashboard");
