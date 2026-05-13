@@ -28,7 +28,7 @@ const ProfilePage = () => {
 
   if (isPending) {
     return (
-      <div className="min-h-[60vh] flex items-center justify-center text-slate-700">
+      <div className="min-h-[60vh] flex items-center justify-center dark:text-white text-slate-700">
         <span className="mr-2">Waiting...  </span>
         <Loading />
       </div>
