@@ -100,11 +100,11 @@ const Dashboard = () => {
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between space-y-6 sm:space-y-0">
             <div className="flex-1">
               <div className="flex items-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
-                <div>
+                <div className="flex item-center">
                   <img
                     src="/logo.png"
                     alt="Logo"
-                    className="h-13 w-13 lg:h-22 lg:w-22 object-contain rounded-xl"
+                    className="h-15 w-15 lg:h-22 lg:w-22 object-contain rounded-xl"
                   />
                 </div>
 
