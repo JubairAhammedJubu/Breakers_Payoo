@@ -45,11 +45,12 @@ export default function Login() {
       toast.error("Login failed");
       return;
     }
-
-    
+  
     if (res) {
       toast.success("Login successful");
-      router.push("/dashboard");
+      setTimeout(() => {
+        router.push("/dashboard");
+      }, 300);
     }
   };
 
