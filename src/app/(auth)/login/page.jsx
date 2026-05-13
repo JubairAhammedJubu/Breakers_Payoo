@@ -67,7 +67,7 @@ export default function Login() {
   };
 
   const demoAccounts = [
-    {email: "smjubairahammed6@gmail.com", password: "123456786", role: "Owner"},
+    {email: "ubu23@gmail.com", password: "98765432", role: "Owner"},
   ];
 
   const fillDemoAccount = (email, password) => {
@@ -187,7 +187,7 @@ export default function Login() {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-3 text-slate-500"
+                    className="absolute right-3 top-4 text-slate-500"
                   >
                     {showPassword ? <EyeOff /> : <Eye />}
                   </button>
