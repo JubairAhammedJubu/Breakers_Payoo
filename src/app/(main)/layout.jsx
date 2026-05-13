@@ -44,8 +44,9 @@ export default function MainLayout({children}) {
         {/* Main Area */}
         <div className="flex-1 flex flex-col min-w-0">
           {/* Navbar */}
-          <Navbar onMenuClick={() => setSidebarOpen(!sidebarOpen)} />
-
+          <div className="sticky top-0 z-30 lg:static">
+            <Navbar onMenuClick={() => setSidebarOpen(!sidebarOpen)} />
+          </div>
           {/* Page Content */}
           <main className="flex-1 p-4 lg:p-6">{children}</main>
         </div>
