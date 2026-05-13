@@ -99,8 +99,8 @@ const Dashboard = () => {
         <div className="flex flex-col space-y-6 lg:space-y-8">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between space-y-6 sm:space-y-0">
             <div className="flex-1">
-              <div className="flex items-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
-                <div className="flex item-center">
+              <div className="flex items-center space-x-3 sm:space-x-6 mb-4 sm:mb-6">
+                <div>
                   <img
                     src="/logo.png"
                     alt="Logo"
