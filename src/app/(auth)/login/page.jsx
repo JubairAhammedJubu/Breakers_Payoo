@@ -67,7 +67,7 @@ export default function Login() {
   };
 
   const demoAccounts = [
-    {email: "ubu23@gmail.com", password: "98765432", role: "Owner"},
+    {email: "jubu23@gmail.com", password: "98765432", role: "Owner"},
   ];
 
   const fillDemoAccount = (email, password) => {
