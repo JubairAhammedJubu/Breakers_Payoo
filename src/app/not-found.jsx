@@ -18,7 +18,7 @@ const NotFound = () => {
 
       {/* Button */}
       <Link
-        href="/dashboard"
+        href="/"
         className="mt-6 inline-flex items-center gap-2 bg-emerald-900 text-white md:px-5 md:py-3 p-2 rounded-md hover:bg-emerald-600 transition"
       >
         Go Back Home
