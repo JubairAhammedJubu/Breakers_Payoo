@@ -223,7 +223,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
       {/* Modal */}
       <div className="bg-white dark:bg-slate-800 rounded-3xl w-full max-w-7xl h-[90vh] shadow-2xl overflow-hidden flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between p-8 border-b border-slate-200 dark:border-slate-700 shrink-0">
+        <div className="flex items-center justify-between md:p-8 p-3 border-b border-slate-200 dark:border-slate-700 shrink-0">
           <div>
             <h2 className="text-3xl font-bold text-slate-700 dark:text-white">
               Payroll Reports
@@ -249,11 +249,13 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
         {/* Body */}
         <div className="flex flex-col xl:flex-row flex-1 overflow-hidden">
           {/* Sidebar */}
-          <div className="xl:w-80 shrink-0 overflow-y-auto border-r border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 p-8">
-            <div className="space-y-8">
+          <div className="xl:w-80 shrink-0 overflow-y-auto border-r border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 p-5 md:p-8">
+            <div className="space-y-3 md:space-y-8">
               {/* Report Type */}
               <div>
-                <label className="block font-semibold mb-4">Report Type</label>
+                <label className="block font-semibold mb-4 text-slate-700 dark:text-white">
+                  Report Type
+                </label>
 
                 <div className="grid grid-cols-2 gap-3">
                   <button
@@ -284,7 +286,9 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
 
               {/* Period */}
               <div>
-                <label className="block font-semibold mb-4">Period</label>
+                <label className="block font-semibold mb-4 text-slate-700 dark:text-white">
+                  Period
+                </label>
 
                 <select
                   value={selectedPeriod}
@@ -335,7 +339,7 @@ export default function ReportsModal({isOpen, onClose, dashboardStats}) {
           </div>
 
           {/* Content */}
-          <div className="flex-1 overflow-y-auto p-8">
+          <div className="flex-1 overflow-y-auto p-5 md:p-8">
             {/* Summary */}
             <div className="grid md:grid-cols-3 gap-6 mb-10">
               <div className="bg-slate-700 text-white rounded-2xl p-6">

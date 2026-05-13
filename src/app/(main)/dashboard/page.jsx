@@ -100,8 +100,12 @@ const Dashboard = () => {
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between space-y-6 sm:space-y-0">
             <div className="flex-1">
               <div className="flex items-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
-                <div className="bg-white/20 backdrop-blur-sm p-3 sm:p-4 lg:p-5 rounded-xl lg:rounded-2xl">
-                  <Waves className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10" />
+                <div>
+                  <img
+                    src="/logo.png"
+                    alt="Logo"
+                    className="h-13 w-13 lg:h-22 lg:w-22 object-contain rounded-xl"
+                  />
                 </div>
 
                 <div>

@@ -50,7 +50,7 @@ export default function Login() {
       toast.success("Login successful");
       setTimeout(() => {
         router.push("/dashboard");
-      }, 300);
+      }, 800);
     }
   };
 
