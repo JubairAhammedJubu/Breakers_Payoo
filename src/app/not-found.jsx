@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const NotFound = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center">
+    <div className="flex flex-col items-center justify-center text-center">
       {/* Animation */}
       <div className="w-full md:max-w-4xl">
         <DotLottieReact
@@ -19,7 +19,7 @@ const NotFound = () => {
       {/* Button */}
       <Link
         href="/dashboard"
-        className="mt-6 inline-flex items-center gap-2 bg-emerald-900 text-white md:px-5 md:py-3 p-2 rounded-md hover:bg-emerald-600 transition"
+        className="mt-8 inline-flex items-center gap-2 bg-emerald-900 text-white md:px-5 md:py-3 p-2 rounded-md hover:bg-emerald-600 transition"
       >
         Go Back Home
       </Link>
