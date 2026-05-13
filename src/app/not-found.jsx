@@ -6,15 +6,20 @@ import Link from "next/link";
 
 const NotFound = () => {
   return (
-    <div className="flex items-center justify-end min-h-[200px]">
-      <DotLottieReact
-        src="https://lottie.host/341e537f-5e5d-4a5b-a944-39c0a8154339/jNCPeDYLXR.lottie"
-        loop
-        autoplay
-      />
+    <div className="flex flex-col items-center justify-center min-h-screen text-center">
+      {/* Animation */}
+      <div className="w-full md:max-w-4xl">
+        <DotLottieReact
+          src="https://lottie.host/341e537f-5e5d-4a5b-a944-39c0a8154339/jNCPeDYLXR.lottie"
+          loop
+          autoplay
+        />
+      </div>
+
+      {/* Button */}
       <Link
         href="/dashboard"
-        className="inline-flex gap-2 bg-emerald-900 text-white px-4 py-3 rounded-md hover:bg-emerald-600 transition"
+        className="mt-6 inline-flex items-center gap-2 bg-emerald-900 text-white md:px-5 md:py-3 p-2 rounded-md hover:bg-emerald-600 transition"
       >
         Go Back Home
       </Link>
