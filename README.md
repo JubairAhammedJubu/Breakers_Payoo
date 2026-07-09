@@ -24,6 +24,16 @@ A modern, web-based **Payroll Management System** designed to automate employee 
 | Jabed Al Hossain Nahid | 0432410005101103 | Frontend Developer                  |
 
 ---
+## ⭐ Acknowledgements
+
+Special thanks to our course instructors:
+
+* **Dr. Syed Arif Islam** (Assistant Professor)
+* **Shad Ahmed** (Lecturer)
+
+for their continuous guidance and support throughout the development of this project.
+
+---
 
 # 📖 About the Project
 
@@ -239,28 +249,6 @@ The Payroll Management System is suitable for:
 
 ---
 
-# Contributors
-
-**Team ByteCode Breakers**
-
-* Maher Labib
-* Jubair Ahammed
-* Md. Anwarul Azim
-* Jabed Al Hossain Nahid
-
----
-
 # License
 
 This project is developed for academic purposes as part of the **Software Project Design and Development Lab** course at the **University of Information Technology & Sciences (UITS)**.
-
----
-
-## ⭐ Acknowledgements
-
-Special thanks to our course instructors:
-
-* **Dr. Syed Arif Islam** (Assistant Professor)
-* **Shad Ahmed** (Lecturer)
-
-for their continuous guidance and support throughout the development of this project.
